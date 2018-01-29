@@ -31,7 +31,7 @@ public class NewTest {
 	public void test1() {
 		driver.get("http://guru99.com");
 		AssertJUnit.assertTrue(driver.getTitle().contains("Meet Guru99 - Free Training Tutorials"));
-
+//make some change to test git
 	}
 
 	@Test
